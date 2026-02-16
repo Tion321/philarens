@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>philaren's | Culinary Catering</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo-link">
+                <img src="logo.jpg" alt="Philaren's Logo" class="nav-logo"> 
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Start</a></li>
+                <li><a href="#about">Philosophie</a></li>
+                <li><a href="#services">Leistungen</a></li>
+                <li><a href="#contact" class="nav-cta">Anfrage</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-slides">
+            <div class="slide active" style="background-image: url('hero1.jpg');"></div>
+            <div class="slide" style="background-image: url('hero2.jpg');"></div>
+            <div class="slide" style="background-image: url('hero3.jpg');"></div>
+        </div>
+        
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <span class="subtitle">Culinary Catering</span>
+            <h1>Wir liefern mehr <br>als nur Essen.</h1>
+            <p>Qualität, Kreativität und Geschmack, der begeistert.</p>
+            <a href="#contact" class="btn btn-hero">Event anfragen</a>
+        </div>
+    </header>
+
+    <section id="about" class="section about-section">
+        <div class="container text-center">
+            <h2 class="section-title">Unsere Leidenschaft</h2>
+            <p class="lead-text">"Lehnen Sie sich zurück, wir kümmern uns um den Rest."</p>
+            <hr class="separator">
+            <p class="description">
+                Essen verbindet. Unser Catering steht für kompromisslose Qualität und liebevolle Details. 
+                Ob im kleinen Kreis oder bei großen Events – wir kreieren Momente, die in Erinnerung bleiben.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2 class="section-title text-center mb-large">Unser Angebot</h2>
+            
+            <div class="service-row">
+                <div class="service-image">
+                    <img src="service-birthday.jpg" alt="Geburtstags Catering">
+                </div>
+                <div class="service-text">
+                    <h3>Geburtstage & Private Feiern</h3>
+                    <p>Machen Sie Ihren Ehrentag unvergesslich. Wir bieten individuelle Buffets und Menüs, die genau auf Ihren Geschmack abgestimmt sind. Von Fingerfood bis zum Gänge-Menü.</p>
+                </div>
+            </div>
+
+            <div class="service-row reverse">
+                <div class="service-image">
+                    <img src="service-business.jpg" alt="Business Catering">
+                </div>
+                <div class="service-text">
+                    <h3>Firmenmeetings</h3>
+                    <p>Professionelle Verpflegung für produktive Stunden. Begeistern Sie Ihre Kunden und Mitarbeiter mit frischem, leichtem Business-Lunch, der Energie schenkt statt müde zu machen.</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-image">
+                    <img src="service-buffet.jpg" alt="Buffet Auswahl">
+                </div>
+                <div class="service-text">
+                    <h3>Buffets & Brunch</h3>
+                    <p>Ob kleines, feines Buffet für die Familie oder ausgiebiger Sonntagsbrunch. Wir liefern Vielfalt: Kalte Platten, warme Speisen, Desserts und vegetarische Optionen.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="image-grid">
+        <div class="grid-item"><img src="gallery1.jpg" alt="Detail 1"></div>
+        <div class="grid-item"><img src="gallery2.jpg" alt="Detail 2"></div>
+        <div class="grid-item"><img src="gallery3.jpg" alt="Detail 3"></div>
+        <div class="grid-item"><img src="gallery4.jpg" alt="Detail 4"></div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container text-center">
+            <h2 class="section-title white">Kontaktieren Sie uns</h2>
+            <p class="contact-sub">Wir freuen uns auf Ihre Anfrage.</p>
+            
+            <div class="contact-buttons-wrapper">
+                <a href="tel:017681254206" class="contact-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Anrufen</span>
+                    <small>0176 / 81254206</small>
+                </a>
+                <a href="mailto:EURE_EMAIL_HIER" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>E-Mail</span>
+                    <small>Anfrage senden</small>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 philaren's Culinary Catering.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
